@@ -1,0 +1,24 @@
+<RelativeLayout
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/compassView"
+        android:background="@drawable/compassimage"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/degreeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/compassView"
+        android:text="@string/origin"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+</RelativeLayout>
